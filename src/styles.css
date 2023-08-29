@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f9e7b3;
+  transition: all 0.3s ease-in-out;
+}
+
+.toggle-button {
+  position: relative;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #9dd9d2;
+  cursor: pointer;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.35);
+}
+
+.toggle-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #fff8f0, #ffc285);
+  opacity: 0.5;
+}
+
+.toggle-selector {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 36px;
+  height: 36px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
